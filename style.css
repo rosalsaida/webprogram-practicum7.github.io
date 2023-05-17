@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Melodin';
+    src: url("Melodin Font/Melodin.otf");
+}
+
+header {
+    background-color: #867070;
+    height: 100px;
+}
+
+.header-title {
+    font-family: 'Melodin';
+    float: left;
+    line-height: 100px;
+    color: white;
+    padding: 0 20px 0 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.header-list {
+    float: right;
+    height: 100px;
+}
+
+li {
+    float: left;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 100px;
+    margin: 0 30px;
+}
+
+.list:hover {
+    background-color: #D5B4B4;
+}
+
+article {
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.card {
+    margin: 10px 20px;
+}
+
+.card-header a {
+    color: #867070;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-text a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-header a:hover,
+.card-text a:hover {
+    color: #D5B4B4;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
